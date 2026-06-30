@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return jsonify({
         "app": "CloudForge Expense Tracker",
-        "message": "Backend is running successfully",
+        "message": "Backend is running successfully from feature branch",
         "status": "OK"
     })
 
